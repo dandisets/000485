@@ -2,9 +2,10 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000485
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: behavioral approach
@@ -31,38 +32,52 @@ assetsSummary:
   - Position
   - ProcessingModule
   - CompassDirection
-citation: Thermal Plaid Experiments (2023). (Version draft) [Data set]. DANDI archive.
-  https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Haesemeyer, Martin (2024) Thermal Plaid Experiments (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/000485/draft
 contributor:
 - awardNumber: 5 R01 NS 123887-02
   name: National Institutes of Health (NIH)
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- email: martin.haesemeyer@osumc.edu
+  includeInCitation: true
+  name: Haesemeyer, Martin
+  roleName:
+  - dcite:DataCollector
+  - dcite:ContactPerson
+  schemaKey: Person
 dateCreated: '2023-04-20T20:32:52.514093+00:00'
-datePublished: '2023-04-20T20:57:14.603858+00:00'
+datePublished: '2024-10-14T21:27:54.955892+00:00'
 description: Larval zebrafish navigating a virtual thermal plaid created by an infrared
   stimulus laser
-doi: 10.80507/dandi.123456/0.123456.1234
+ethicsApproval: []
 id: DANDI:000485/draft
 identifier: DANDI:000485
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000485/versions/draft/assets/
 name: Thermal Plaid Experiments
+protocol: []
 publishedBy:
-  endDate: '2023-04-20T20:57:14.603858+00:00'
-  id: urn:uuid:a0b5a247-eb8d-440b-a51c-b789327d7138
+  endDate: '2024-10-14T21:27:54.955892+00:00'
+  id: urn:uuid:f10b6214-32cb-4b6a-be46-b20db72e3847
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-04-20T20:57:14.603858+00:00'
+  startDate: '2024-10-14T21:27:54.955892+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:217c8451-f27b-4f75-b674-243fe5574c1b
+  - id: urn:uuid:4bc420c6-1695-4714-bc28-6b9c845ed5e0
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000485/draft
 version: draft
+wasGeneratedBy: []
